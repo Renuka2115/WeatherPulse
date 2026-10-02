@@ -1,0 +1,19 @@
+# Virtual environment
+bda_env/
+venv/
+env/
+
+# Python byte-code & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PySpark temporary / derby logs
+metastore_db/
+derby.log
+spark-warehouse/
+.checkpoint/
+
+# OS specific files
+.DS_Store
+Thumbs.db
